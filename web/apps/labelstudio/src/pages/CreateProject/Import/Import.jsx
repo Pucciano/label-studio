@@ -16,7 +16,7 @@ function flatten(nested) {
 // Keep in sync with core.settings.SUPPORTED_EXTENSIONS on the BE.
 const supportedExtensions = {
   text: ["txt"],
-  audio: ["wav", "mp3", "flac", "m4a", "ogg"],
+  audio: ["wav", "mp3", "flac", "m4a", "ogg", "opus"],
   video: ["mp4", "webp", "webm"],
   image: ["jpg", "jpeg", "png", "gif", "bmp", "svg", "webp"],
   html: ["html", "htm", "xml"],

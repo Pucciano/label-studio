@@ -453,6 +453,7 @@ SUPPORTED_EXTENSIONS = set(
         '.m4a',
         '.mp3',
         '.ogg',
+        '.opus',
         '.png',
         '.svg',
         '.tsv',

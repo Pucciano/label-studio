@@ -15,7 +15,7 @@ window.HTMLMediaElement.prototype._mock = {
   _resetMock: function resetMock(media) {
     media._mock = Object.assign({}, window.HTMLMediaElement.prototype._mock);
   },
-  _supportsTypes: ["video/mp4", "video/webm", "video/ogg", "audio/mp3", "audio/webm", "audio/ogg", "audio/wav"],
+  _supportsTypes: ["video/mp4", "video/webm", "video/ogg", "audio/mp3", "audio/webm", "audio/ogg", "audio/opus", "audio/wav"],
 };
 
 // Get "paused" value, it is automatically set to true / false when we play / pause the media.
